@@ -1,0 +1,80 @@
+body {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f0f0f000;
+    transition: 0.3s ease;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.button-container {
+    margin-top: 20px;
+    transition: 0.3 ease;
+}
+
+.color-info {
+    display: inline-block;
+    font-size: 20px;
+    margin: 5px;
+    transition: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.color-container {
+    margin-top: auto;
+    transform: translate(-50%, -50%);
+    user-select: none;
+    text-align: center;
+    padding: 20px;
+    border: none; /* Remove border */
+    border-radius: 8px;
+    background-color: #ffffff; /* Set the background color to white */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.057); /* Update box shadow for a modern look */
+    cursor: move;
+    position: absolute;
+    left: 50%;
+    bottom: 0%
+}
+.color-container:hover {
+    background-color:whitesmoke;
+    transition: 0.3s ease;
+    cursor: grab;
+}
+
+.color-info span {
+    display: inline-block;
+    margin: 5px;
+}
+
+.color-changer {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4caf50; /* Green background color */
+    color: #ffffff; /* White text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+
+.color-changer:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+.api-link {
+    color: black;
+    margin-left: auto;
+    padding: 1%;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    position: absolute;
+}
+.api-link:hover {
+    color:#ffffff;
+    transition: 0.3s ease
+}

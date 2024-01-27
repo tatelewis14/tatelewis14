@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Changer!</title>
+    <link rel = 'stylesheet' href = './styles.css'></link>
+    <script src = './colorChanging.js' type = 'text/javascript'></script>
+    <script src = './draggable.js'></script>
+</head>
+<body>
+    <h1 class = 'title'>
+        Color Changer!
+    </h1>
+    <div class="button-container">
+        <button onclick="changeColor()" class = 'color-changer'>Click me</button>
+    </div>
+    <div  id = "color-container" class="color-container">
+        <span class = 'color-info' id="color-one">#</span>
+        <span class = 'color-info' id="color-two">#</span>
+        <span class = 'color-info' id="color-three">#</span>        
+        <span class = 'color-info' id="color-four">#</span>
+    </div>
+    <a class = 'api-link' id = 'api-link' target = '_self' href= 'https://random-flat-colors.vercel.app'>
+       API?   
+    <a>
+</body>
+
+</html>
